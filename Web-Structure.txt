@@ -1,0 +1,6 @@
+Include Responsiveness:
+
+- navigation-bar
+- hero-section
+- section-1 
+- footer
