@@ -1,6 +1,7 @@
 Include Responsiveness:
 
 - navigation-bar
+- navigation-bar dropdown
 - hero-section
 - section-1 
 - footer
