@@ -19,6 +19,9 @@ module.exports = {
         primary_color: '#050505',
         accent_color: '#545353'
       },
+      backgroundImage: {
+        hero_section: "url('/images/content/hero_section/Mask group.png')",
+      },
     },
   },
   plugins: [],
