@@ -5,7 +5,7 @@
 @tailwind utilities;
 
 .menu-bar {
-    @apply translate-y-[452px]
+    @apply translate-y-[445px]
 }
 
 .dropdown-list {

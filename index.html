@@ -12,12 +12,12 @@
 
 <body>
     <header
-        class="relative w-screenu h-auto bg-primary_color z-10 lg:flex lg:justify-center lg:items-center lg:py-2 lg:px-6">
-        <div class="max-w-full bg-black p-3 flex justify-between lg:p-3">
+        class="relative w-screenu h-auto bg-primary_color z-10 lg:flex lg:justify-center lg:items-center lg:py-3 lg:px-5">
+        <div class="max-w-full bg-black py-3 px-5 flex justify-between lg:py-0 lg:pl-0 lg:pr-16">
             <div class="w-fit">
-                <h1 class="text-white text-xl font-Inter lg:text-2xl xl:text-3xl">Uber</h1>
+                <h1 class="text-white text-xl font-Inter sm:text-3xl">Uber</h1>
             </div>
-            <div id="menuBarButton" class="cursor-pointer lg:hidden">
+            <div id="menuBarButton" class="cursor-pointer flex items-center lg:hidden">
                 <svg id="" width="26px" height="26px" stroke-width="1.4" viewBox="0 0 24 24" fill="none"
                     xmlns="http://www.w3.org/2000/svg" color="#fff">
                     <path d="M8 10L16 10" stroke="#fff" stroke-width="1.4" stroke-linecap="round"
@@ -36,9 +36,9 @@
             </div>
         </div>
         <div id="header_list"
-            class="absolute -top-[400px] left-0 w-full h-auto -z-10 bg-black py-4 px-6 space-y-4 transform translate-y-0 transition-transform duration-500 ease-in-out sm:space-y-0 sm:grid sm:grid-cols-2 lg:static lg:bg-transparent lg:py-0 lg:px-0 lg:transform-none lg:transition-none">
+            class="absolute -top-[400px] left-0 w-full h-auto -z-10 bg-primary_color py-4 px-6 space-y-4 transform translate-y-0 transition-transform duration-500 ease-in-out sm:space-y-0 sm:grid sm:grid-cols-2 lg:static lg:bg-transparent lg:py-0 lg:px-0 lg:transform-none lg:transition-none">
             <ul
-                class="[&>li>a]:text-white [&>li>a]:font-Inter flex flex-col items-center gap-4 lg:flex-row lg:gap-8 lg:justify-end xl:gap-16">
+                class="[&>li>a]:text-white [&>li>a]:font-Inter flex flex-col items-center gap-4 lg:flex-row lg:justify-between">
                 <li><a href="#">Ride</a></li>
                 <li><a href="#">Drive</a></li>
                 <li><a href="#">Business</a></li>
@@ -53,7 +53,7 @@
                         </svg>
                     </div>
                     <ul id="dropdown_list"
-                        class="w-full h-0 opacity-0 [&>li>a]:text-white [&>li>a]:font-Inter flex flex-col items-center gap-4 transition-all duration-500 ease-in-out pointer-events-none lg:absolute lg:top-12 lg:left-0 lg:w-[180px] lg:px-6 lg:items-start">
+                        class="w-full h-0 opacity-0 [&>li>a]:text-white [&>li>a]:font-Inter flex flex-col items-center gap-4 transition-all duration-500 ease-in-out pointer-events-none lg:absolute lg:top-10 lg:left-0 lg:w-[180px] lg:px-6 lg:items-start">
                         <li><a href="#">Our Offerings</a></li>
                         <li><a href="#">How Uber Works</a></li>
                         <li><a href="#">Impact</a></li>
