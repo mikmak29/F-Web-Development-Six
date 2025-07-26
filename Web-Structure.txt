@@ -4,4 +4,5 @@ Include Responsiveness:
 - navigation-bar dropdown
 - hero-section
 - section-1 
+-section-2
 - footer
