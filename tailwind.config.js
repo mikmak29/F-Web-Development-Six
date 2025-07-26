@@ -23,6 +23,9 @@ module.exports = {
       backgroundImage: {
         hero_section: "url('/images/content/hero_section/Mask group.png')",
       },
+      footer: {
+        'footer-list-style': '[&>li>a]:text-white [&>li>a]:font-Inter [&>li>a]:font-light space-y-6'
+      },
     },
   },
   plugins: [],

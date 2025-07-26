@@ -11,3 +11,11 @@
 .dropdown-list {
     @apply h-[238px] opacity-100 pt-3 pointer-events-auto lg:h-[255px] lg:bg-black
 }
+
+.footer-list_title {
+    @apply text-white text-xl font-Inter pb-10
+}
+
+.footer-list {
+    @apply [&>li>a]:text-white [&>li>a]:font-Inter [&>li>a]:font-light flex flex-col gap-4
+}
